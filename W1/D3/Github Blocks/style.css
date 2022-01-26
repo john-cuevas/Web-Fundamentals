@@ -1,0 +1,43 @@
+body{
+    width:800px;
+    height:250px;
+    
+}
+
+h1{
+    color: darkslategrey;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+#all{
+    /* display:flex;
+    justify-content: space-evenly;
+    margin:20pt; */
+
+}
+
+#container1{
+    background-color: palegreen;
+    display:flex;
+    justify-content: space-evenly;
+    margin:20pt;
+}
+
+#container2{
+    background-color: sandybrown;
+    display:flex;
+    justify-content: space-evenly;
+    margin:20pt;
+}
+
+#container3{
+    background: powderblue;
+    display:flex;
+    justify-content: space-evenly;
+    margin:20pt;
+}
+
