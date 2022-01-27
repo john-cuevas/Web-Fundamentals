@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    flex:1;
+    background-color: skyblue;
+    margin: 10pt;
+    padding: 20pt;
+
+}
+.col-2{
+    flex:2;
+    background-color: slateblue;
+    margin: 10pt;
+    padding: 20pt;
+}
+
+.col-3{
+    flex:3;
+    background-color:tomato;
+    margin: 10pt;
+    padding: 20pt;
+}
