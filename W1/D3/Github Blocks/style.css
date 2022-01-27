@@ -1,7 +1,13 @@
 body{
     width:800px;
     height:250px;
+    display:flex;
     
+}
+
+#rows{
+    display:flex;
+    flex-direction: column;
 }
 
 h1{
@@ -11,33 +17,27 @@ h1{
 
 img{
     height: 200px;
+    padding:10px
 }
 
-#all{
-    /* display:flex;
+
+#container{
+    display:flex;
     justify-content: space-evenly;
-    margin:20pt; */
-
+    margin:20pt;
 }
 
-#container1{
+#green{
     background-color: palegreen;
-    display:flex;
-    justify-content: space-evenly;
-    margin:20pt;
 }
 
-#container2{
+#brown{
     background-color: sandybrown;
-    display:flex;
-    justify-content: space-evenly;
-    margin:20pt;
+    margin: 20pt;
 }
 
-#container3{
+#blue{
     background: powderblue;
-    display:flex;
-    justify-content: space-evenly;
-    margin:20pt;
+
 }
 
