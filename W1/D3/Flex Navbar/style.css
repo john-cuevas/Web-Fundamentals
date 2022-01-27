@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+    background-color: slategray;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-links{
+    display: flex;
+    background-color: slategray;
+    list-style-type: none;  
+}
+li{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn{
+    background-color: turquoise;
+    color: white;
+    margin-right: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
