@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    padding: 0 18%;
+    background-color: white;
+}
+
+#navbar{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+#navbar button{
+    width: 50px;
+    padding: 4px;
+    background-color:royalblue;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.searchbar{
+    color: grey;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+}
+
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 40px;
+    flex-direction: column;
+    height: 600px;
+}
+
+.ninja{
+    width: 640px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    text-align: left;
+    align-items: left;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+main .right p{
+    font-size: 20px;
+}
+
+.ninja2{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    text-align:center;
+    align-items: center;
+
+}
+
+main .ninja button{
+    width: 75px;
+    padding: 4px;
+    background-color:goldenrod;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+
+main .ninja2 button{
+    width: 210px;
+    padding: 4px;
+    background-color:olivedrab;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+
+main img{
+    width: 50px;
+}
+
+main span{
+    color: blue;
+    text-decoration: underline;
+}
+
+main .ninja2 span{
+    font-size:30px;
+    color: black !important;
+    text-decoration: none !important;
+
+}
