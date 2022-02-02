@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maincontainer{
+    width:1000px;
+    margin: 0 auto;
+}
+
+
+#navbar{
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+}
+
+#navbar p{
+    font-size: 30px;
+}
+
+#navbar li{
+    font-size: 25px;
+
+}
+
+.cities{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 100px;
+}
+
+#navbar2{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-align: left;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+}
+
+.thermo{
+    display: flex;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container1{
+    display: flex;
+    gap: 25px;
+
+}
+
+.day{
+    background-color:lightgrey;
+    flex: 1;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+
+}
+
+.day img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.day h3{
+    font-size: 20px;
+}
+
+.temperature{
+    display:flex;
+    gap: 50px;
+    font-weight: bold;
+    
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.cookie{
+    display: flex;
+    flex-direction: column;
+}
+
+#container2{
+    background-color: lightgrey;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    position:fixed;
+    bottom: 100px;
+
+}
+
+#container2 img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px 25px;
+
+}
+
+#container2 button{
+    background-color:lightsteelblue ;
+    width: 100px;
+    box-shadow: 3px 3px 3px black;
+    margin: 0px 25px;
+    font-size: 15px;
+}
